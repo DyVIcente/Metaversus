@@ -32,19 +32,19 @@ const World = () => (
       >
         <img src="/map.png" alt="map" className="w-full h-full object-contain" />
 
-        <div className="absolute bottom-20 right-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680] z-20">
+        <div className="absolute sm:bottom-20 bottom-56 sm:right-20 right-5 sm:w-[70px] w-[40px] sm:h-[70px] h-[40px] p-[6px] rounded-full bg-[#5D6680] z-20">
           <img src="/people-01.png" alt="people" className="w-full h-full z-10" />
-          <div className="absolute w-[60px] h-[60px] top-1 bg-[#c05d16] blur-lg -z-10" />
+          <div className="absolute sm:w-[60px] w-[40px] sm:h-[60px] h-[40px] top-1 bg-[#c05d16] blur-lg -z-10" />
         </div>
 
-        <div className="absolute top-10 left-56 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680] z-20">
+        <div className="absolute sm:top-20 top-60 sm:left-56 sm:w-[70px] w-[40px] sm:h-[70px] h-[40px] p-[6px] rounded-full bg-[#5D6680] z-20">
           <img src="/people-02.png" alt="people" className="w-full h-full z-10" />
-          <div className="absolute w-[60px] h-[60px] top-1 bg-[#e35da0] blur-lg -z-10" />
+          <div className="absolute sm:w-[60px] w-[40px] sm:h-[60px] h-[40px] top-1 bg-[#e35da0] blur-lg -z-10" />
         </div>
 
-        <div className="absolute top-1/2 left-[45%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680] z-20">
+        <div className="absolute top-1/2 left-[45%] sm:w-[70px] w-[40px] sm:h-[70px] h-[40px] p-[6px] rounded-full bg-[#5D6680] z-20">
           <img src="/people-03.png" alt="people" className="w-full h-full z-10" />
-          <div className="absolute w-[60px] h-[60px] top-1 bg-[#7e7b7c] blur-lg -z-10" />
+          <div className="absolute sm:w-[60px] w-[40px] sm:h-[60px] h-[40px] top-1 bg-[#7e7b7c] blur-lg -z-10" />
         </div>
 
         <motion.div
@@ -66,7 +66,7 @@ const World = () => (
           variants={fadeIn('up', 'tween', 0.2, 1)}
           initial="hidden"
           whileInView="show"
-          className="absolute top-9 right-[18%] w-[217px] h-[167px] p-[9px] rounded-[24px] bg-[#5D6680]"
+          className="absolute top-9 right-[18%] w-[217px] h-[167px] p-[9px] rounded-[24px] bg-[#5D6680] lg:visible invisible"
         >
           <img src="/planet-11.png" alt="planet-11" className="w-full h-full rounded-[24px]" />
           <div className="absolute w-[210px] h-[170px] top-1 bg-[#1f4366] blur-xl -z-10" />
